@@ -18,5 +18,21 @@ section {
 }
 
 body {
-    background-color: white;
+    background-color: white; margin: 0%;
+}
+header {
+    background-color: dodgerblue;
+     padding: 50px;
+
+}
+.image-main {
+    display: block; margin-left: auto; margin-right: auto;
+}
+    
+.A {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
 }
