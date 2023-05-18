@@ -1,20 +1,42 @@
-h2 {color: blue;}
+h2 {
+    color: blue;
+}
 
-h3 {color: blue;}
+h3 {
+    color: blue;
+}
 
-body { font-size: 20px; color: black;}
-body { font-family: Arial, Helvetica, sans-serif;}
+body {
+     font-size: 20px;
+      color: black;
+    }
 
-#Education {color: blue; padding: 10px;}
+body {
+     font-family: Arial, Helvetica, sans-serif;
+    }
 
-#Experience {color: blue; padding: 10px;}
+#Education {
+    color: blue;
+}
 
-#Skills {color: blue; padding: 10px;}
+#Experience {
+    color: blue;
+}
 
-#Contact-Details {color: blue; padding: 10px;}
+#Skills {
+    color: blue;
+}
+
+#Contact-Details {
+    color: blue;
+}
 
 section {
     background-color: white;
+    margin-left: 100px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 body {
@@ -26,7 +48,12 @@ header {
 
 }
 .image-main {
-    display: block; margin-left: auto; margin-right: auto;
+    border: 5px solid;
+    border-color: white ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%
 }
     
 .A {
@@ -36,3 +63,15 @@ header {
 h1 {
     text-align: center;
 }
+
+.tabs {
+    text-align: left;
+    background-color: lightgray;
+    border-right: 95%;
+    text-align: left;
+    margin-right: 2200px;
+    padding: 20px; 
+}
+
+
+
