@@ -63,15 +63,8 @@ header {
 h1 {
     text-align: center;
 }
-
-#navbar {
-    text-align: left;
-    background-color: lightgray;
-    border-right: 95%;
-    text-align: left;
-    margin-right: 2200px;
-    padding: 20px; 
+.navbar {
+    background-color: blue;
 }
-
 
 
