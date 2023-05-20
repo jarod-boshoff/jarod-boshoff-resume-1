@@ -17,18 +17,22 @@ body {
 
 #Education {
     color: blue;
+    padding: 25px;
 }
 
 #Experience {
     color: blue;
+    padding: 25px;
 }
 
 #Skills {
     color: blue;
+    padding: 25px;
 }
 
 #Contact-Details {
     color: blue;
+    padding: 25px;
 }
 
 section {
@@ -75,7 +79,6 @@ h1 {
     margin: 0;
     width: 100%;
     margin-bottom: 100px;
-    
 }
 
 .nav-link {
