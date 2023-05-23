@@ -1,0 +1,123 @@
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+body {
+     font-size: 20px;
+      color: black;
+    }
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+    }
+
+#Education {
+    color: blue;
+    padding-top: 25px;
+}
+
+#Experience {
+    color: blue;
+    padding-top: 25px;
+}
+
+#Skills {
+    color: blue;
+    padding-top: 25px;
+}
+
+#Contact-Details {
+    color: blue;
+    padding-top: 25px;
+}
+
+section {
+    background-color: white;
+    margin-left: 100px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: white; margin: 0%;
+}
+header {
+    background-color: dodgerblue;
+     padding: 50px;
+
+}
+.image-main {
+    border: 5px solid;
+    border-color: white ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%
+    
+}
+    
+.A {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#navbar {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    margin: 0 4vw;
+}
+
+.nav-link:hover {
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+button:hover {
+    background-color: blue;
+    text-decoration: none;
+}
+#back-to-top > button{
+    background-color: blue;
+    border-radius: 50%;
+    border: solid 1px blue;
+    width: 50px;
+    height: 50px;
+}
+#back-to-top:hover > button {
+    border: solid 1px blue;
+    background-color: white;
+    
+}
+#back-to-top > button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: rgb(198, 156, 78);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
