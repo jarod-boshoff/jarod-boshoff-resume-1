@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>resume-1-jarod-boshoff</title>
-    <link rel="stylesheet" href="./CSS/stylesheet7-1.css">
+    <link rel="stylesheet" href="./CSS/stylesheet7-2.css">
   </head>
   <body>
-      
+    
      <nav id="navbar">
         <a class="nav-link" href="#Education">Education</a> |
         <a class="nav-link" href="#Experience">Experience</a> |
@@ -13,9 +13,15 @@
     </nav>
         
     <header>
-        <img src= "./pictures/jarod.jpg" style="height:300px; width:350px;" class="image-main">
+    
+    <picture>
+        <source srcset="./pictures/headshot.jpg" style="height: 500px;" media="(max-width: 600px)">
+        <source srcset="./pictures/shouldershot.jpg" style="height: 500px;" media="(max-width: 1000px)">
+        <img src= "./pictures/bodyshot.jpg" class="image-main" style="height: 500px;">
+    </picture>
     <h1>Jarod Boshoff</h1>
     <p class="A">An introductory personal statement.</p>
+
     </header>
 
     <a id="back-to-top" href="#top">
@@ -107,59 +113,8 @@
         <article>
           <section>
          <footer>
-
-        <h2>Contact Me</h2>
-
-         <form action="https://formsubmit.co/jarodnboshoff@gmail.com" method="post">
-
-            <div>
-                <label for="name">Name: </label>
-                <input type="text" id="Name" name="Name" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="Company name">Company Name: </label>
-                <input type="text" id="Company Name" name="Company Name" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="email">Email: </label>
-                <input type="email" id="Email" name="Email" required>
-            </div>
-
-            <br>
-
-            <div>
-
-            <label for="title">Interested?: </label>
-
-            <label for="Yes">Yes</label>
-            <input type="radio" id="Yes" name="Interested?" required>
-
-            <label for="No">No</label>
-            <input type="radio" id="No" name="Interested?" required>
-
-            </div>
-
-            <br>
-            <div>
-                Additional Comment:
-            <br> 
-                <textarea name="About" id="About" cols="50" rows="7"></textarea>
-            </div>
-    
-            <br>
-
-            <div>
-              <input type="Submit" value="send">
-          </div>
-
-         </form>
-
+         <h2 id="Contact-Details">Contact Details</h3></h2>
+         <a href="https://www.linkedin.com/">Linked In</a>
          </footer>
         </section>
         </article>
