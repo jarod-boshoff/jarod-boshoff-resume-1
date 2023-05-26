@@ -1,0 +1,168 @@
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+body {
+    font-size: 20px;
+    color: black;
+    background-color: white; margin: 0%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+#Education {
+    color: blue;
+    padding-top: 25px;
+}
+
+#Experience {
+    color: blue;
+    padding-top: 25px;
+}
+
+#Skills {
+    color: blue;
+    padding-top: 25px;
+}
+
+#Contact-Details {
+    color: blue;
+    padding-top: 25px;
+}
+
+section {
+    background-color: white;
+    margin-left: 100px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: dodgerblue;
+    padding: 50px;
+}
+.image-main {
+    border: 5px solid;
+    border-color: white ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%
+    
+}
+    
+.A {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#navbar {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    margin: 0 4vw;
+}
+
+.nav-link:hover {
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+button:hover {
+    background-color: blue;
+    text-decoration: none;
+}
+#back-to-top > button{
+    background-color: blue;
+    border-radius: 50%;
+    border: solid 1px blue;
+    width: 50px;
+    height: 50px;
+}
+#back-to-top:hover > button {
+    border: solid 1px blue;
+    background-color: white;
+    
+}
+#back-to-top > button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: rgb(198, 156, 78);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url("../pictures/code.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+}
+.hero-text {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-text p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hero-btn {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.hero-btn:hover {
+    background: white;
+    color: black;
+    
+}
