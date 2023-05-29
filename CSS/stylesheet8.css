@@ -47,13 +47,13 @@ header {
     padding: 50px;
 }
 .image-main {
+    height: 400px;
     border: 5px solid;
     border-color: white ;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%
-    
 }
     
 .A {
@@ -165,4 +165,11 @@ body {
     background: white;
     color: black;
     
+}
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 1024){
+    img {height: 10px;}
+
 }
